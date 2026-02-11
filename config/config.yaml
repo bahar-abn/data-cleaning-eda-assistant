@@ -1,0 +1,45 @@
+# تنظیمات پروژه دستیار هوشمند پاکسازی داده
+
+# تنظیمات داده
+data:
+  max_file_size_mb: 200
+  allowed_formats:
+    - csv
+    - xlsx
+    - xls
+    - json
+  encoding: utf-8
+  
+# تنظیمات پاکسازی داده
+cleaning:
+  missing_values:
+    threshold_percent: 50
+    numeric_strategy: mean
+    categorical_strategy: mode
+  outliers:
+    method: iqr
+    iqr_multiplier: 1.5
+    zscore_threshold: 3
+    
+# تنظیمات مصورسازی
+visualization:
+  figure_size: [12, 8]
+  dpi: 100
+  color_palette: viridis
+  heatmap_cmap: coolwarm
+  
+# تنظیمات گزارش
+report:
+  language: fa
+  include_code: false
+  include_figures: true
+  output_formats:
+    - html
+    - pdf
+    
+# تنظیمات Streamlit
+streamlit:
+  page_title: "دستیار هوشمند پاکسازی داده و EDA"
+  page_icon: "📊"
+  layout: wide
+  initial_sidebar_state: expanded

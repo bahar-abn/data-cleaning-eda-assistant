@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: data-cleaning-eda-assistant
+Version: 1.0.0
+Summary: دستیار هوشمند پاکسازی داده و تحلیل اکتشافی
+Home-page: https://github.com/yourusername/data-cleaning-eda-assistant
+Author: Your Name
+Author-email: your.email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-python
+Dynamic: summary
+
+# دستیار هوشمند پاک‌سازی داده و EDA
+
+## 📋 معرفی پروژه
+این پروژه یک سیستم هوشمند برای تحلیل خودکار داده‌های خام و تولید گزارش EDA (تحلیل اکتشافی داده) است.
+
+## 🚀 قابلیت‌ها
+- بارگذاری داده از فرمت‌های مختلف (CSV, Excel, JSON)
+- تشخیص و مدیریت مقادیر گمشده
+- شناسایی و مدیریت داده‌های پرت (Outlier)
+- تحلیل توزیع داده‌ها
+- محاسبه ماتریس همبستگی
+- مصورسازی پیشرفته داده‌ها
+- تولید گزارش تحلیلی جامع
+- رابط کاربری گرافیکی با Streamlit
+
+## 🛠️ نصب و راه‌اندازی
+```bash
+# Clone repository
+git clone https://github.com/yourusername/data-cleaning-eda-assistant.git
+cd data-cleaning-eda-assistant
+
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# venv\Scripts\activate  # Windows
+
+# Install dependencies
+pip install -r requirements.txt
